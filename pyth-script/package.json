@@ -1,0 +1,15 @@
+{
+  "name": "contract_script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@pythnetwork/pyth-evm-js": "^1.29.2",
+    "ethers": "^6.6.0",
+    "wagmi": "^1.3.7"
+  },
+  "type": "module",
+  "scripts": {
+    "pyth-demo": "node pyth.js"
+  }
+}
